@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                ehco 'Step Stage'
+                echo 'Step Stage'
             }
         }
     }
